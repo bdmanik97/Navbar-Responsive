@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .navbar a{
+        background-color: green;
+        border: 1px solid chartreuse;
+        border-radius: 20px;
+        margin: 10px 0;
+        text-align: center;
+        color: whitesmoke;
+    }
+}
